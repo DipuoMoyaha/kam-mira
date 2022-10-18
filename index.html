@@ -20,9 +20,23 @@
     </nav>
   </header>
   <main>
+    
+     
+    
     <div class="intro">
+      
 
        <a href="login-page.html"><button>Sign in</button> </a>
+
+       <input type="text" id="currentDateTime">
+      <br><br>
+      <script>
+        var today = new Date();
+      
+      var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      var dateTime = time;
+        document.getElementById("currentDateTime").value = dateTime;
+      </script>
     </div>
 
   </main>

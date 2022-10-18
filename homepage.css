@@ -78,6 +78,18 @@ background-image: url(homepage.jpg);
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
 }
 
+.intro input{
+  padding: 50px;
+  margin-top: 60px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  margin-left: 520px;
+}
+
 .achievements-2 {
   display: flex;
   justify-content: space-around;
@@ -114,6 +126,45 @@ background-image: url(homepage.jpg);
   color: #585858;
   margin: 10px 0;
 }
+
+
+.achievements-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.achievements-3 .work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.achievements-3 .work i {
+  width: fit-content;
+  font-size: 50px;
+  color: #333333;
+  border-radius: 50%;
+  border: 2px solid #333333;
+  padding: 12px;
+}
+
+.achievements-3 .work .work-heading {
+  font-size: 20px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.achievements-3 .work .work-text {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
+}
+
 
 .achievements {
     display: flex;
@@ -208,6 +259,7 @@ form.example input[type=text] {
   float: left;
   width: 80%;
   background: #f1f1f1;
+  border-radius: 5px;
 }
 
 form.example button {
